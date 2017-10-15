@@ -1,0 +1,36 @@
+p {
+  width: 100%;
+  text-align: center;
+}
+
+.frame {
+  background-color: green;
+  width: 300px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  width:280px;
+  height: 70px;
+  margin: 10px 10px;
+}
+
+.calcButton, .lcd {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid red;
+  margin: 2px 2px;
+}
+
+.is-one-fourth {
+  width: 64px;
+}
+
+.is-one-third {
+  width: 87px;
+}
+.lcd {
+  width: 100%;
+}
