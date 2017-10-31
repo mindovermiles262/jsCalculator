@@ -2,6 +2,7 @@
 // 2017-10-14 AD
 // Methods to interact with the buttons of the calculator
 
+let runningTotal = 0
 const calcButtons = document.getElementsByClassName("calcButton");
 const lcd = document.querySelector(".lcd > p")
 let primaryValue = ""
