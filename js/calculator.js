@@ -2,7 +2,7 @@
 // 2017-10-14 AD
 
 function add (x, y) {
-  return x + y;
+  return Number(x) + Number(y);
 };
 
 function subtract (x, y){
