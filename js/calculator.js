@@ -6,13 +6,13 @@ function add (x, y) {
 };
 
 function subtract (x, y){
-  return x - y;
+  return Number(x) - Number(y);
 };
 
 function multiply(x, y){
-  return x * y;
+  return Number(x) * Number(y);
 };
 
 function divide(x, y){
-  return x / y;
+  return Number(x) / Number(y);
 };
