@@ -56,9 +56,9 @@ let value = function() {
         }
       }
       // Debugging
-      console.log("PRI: " + primaryValue);
-      console.log("STR: " + storedValue);
-      console.log("OP :" + operator)
+      // console.log("PRI: " + primaryValue);
+      // console.log("STR: " + storedValue);
+      // console.log("OP :" + operator)
     });
   }
 }

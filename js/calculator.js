@@ -23,7 +23,7 @@ function calculate(operator, primaryValue, storedValue) {
       return add(storedValue, primaryValue);
     case '-':
       return subtract(storedValue, primaryValue);
-    case 'x':
+    case 'X':
       return multiply(storedValue, primaryValue);
     case '/':
       return divide(storedValue, primaryValue);
