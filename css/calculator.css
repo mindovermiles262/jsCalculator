@@ -1,6 +1,7 @@
 p {
   width: 100%;
   text-align: center;
+  font-family: 'VT323', monospace;
 }
 
 .frame {
@@ -24,6 +25,11 @@ p {
   margin: 2px 2px;
 }
 
+.calcButton {
+  cursor: pointer;
+  font-size: 40px;
+}
+
 .is-one-fourth {
   width: 64px;
 }
@@ -33,4 +39,10 @@ p {
 }
 .lcd {
   width: 100%;
+  font-size: 30px;
+}
+
+.small-right {
+  float: right;
+  size: 10px;
 }

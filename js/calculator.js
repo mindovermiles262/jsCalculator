@@ -16,3 +16,16 @@ function multiply(x, y){
 function divide(x, y){
   return Number(x) / Number(y);
 };
+
+function calculate(operator, primaryValue, storedValue) {
+  switch (operator) {
+    case '+':
+      return add(storedValue, primaryValue);
+    case '-':
+      return subtract(storedValue, primaryValue);
+    case 'x':
+      return multiply(storedValue, primaryValue);
+    case '/':
+      return divide(storedValue, primaryValue);
+  }
+}
