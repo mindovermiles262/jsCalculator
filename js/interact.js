@@ -12,10 +12,12 @@ let value = function() {
   for (var i = 0; i < calcButtons.length; i++) {
     calcButtons[i].addEventListener('click', function(event) {
       let inner = event.target
-      if(inner.className ===  "number") { 
-        // append number to display
-        primaryValue += inner.innerHTML
-        lcd.innerHTML = primaryValue;
+      if(inner.className ===  "number") {
+        if (primaryValue.length <= 22) { 
+          // append number to display
+          primaryValue += inner.innerHTML
+          lcd.innerHTML = primaryValue;
+        }
       } else if (inner.className === "operator") {
         if (storedValue === "") {
           // runs first time setting storedValue
@@ -48,7 +50,6 @@ let value = function() {
           primaryValue = ""
         } else {
           if (operator !== "=") {
-            console.log("OP")
             calc = calculate(operator, primaryValue, storedValue)
             lcd.innerHTML = calc;
             storedValue = calc;
